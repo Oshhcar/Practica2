@@ -4,6 +4,8 @@ main ()
 } 
 
 int factorial ( int a ) {
-
-  return r;
+  if(v == 0)
+	return 1;
+  else
+	return v * factorial(v-1);
 }
