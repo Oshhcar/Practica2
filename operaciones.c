@@ -22,3 +22,8 @@ int division ( int a, int b ) {
   int r = a / b;
   return r;
 }
+
+int potencia (int a, int b) {
+  int r = pow (a, b);
+  return r;
+}
