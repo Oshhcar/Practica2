@@ -32,3 +32,8 @@ int raiz (int a) {
   int r = pow (a, 0.5);
   return r;
 }
+
+int modulo (int a, int b) {
+  int r = a % b;
+  return r;
+}
